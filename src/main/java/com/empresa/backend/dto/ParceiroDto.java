@@ -73,7 +73,7 @@ public class ParceiroDto {
 	private String email;
 
 	@NotBlank(message = "Telefone é obrigatório")
-	@Pattern(regexp = "\\(\\d{2}\\) \\d{4,5}-\\d{4}", message = "Formato: (XX) XXXX-XXXX ou (XX) XXXXX-XXXX")
+	@Pattern(regexp = "\\(\\d{2}\\) \\d{4,5}-\\d{4}", message = "Formato: (XX) XXXX-XXXX ou (XX) XXXX-XXXX")
 	private String telefone;
 
 	@NotBlank(message = "Celular é obrigatório")
